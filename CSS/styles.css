@@ -1,12 +1,32 @@
 body {
+    font-family: 'Amaranth', sans-serif;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(101, 101, 255);
+    transition-duration: 0.5s;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 #navigation-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     place-items: center;
+    padding: 20px 0;
 }
 
 #logo {
@@ -28,7 +48,8 @@ h1 {
 
 #reviews {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
+    padding: auto;
 }
 
 footer {
