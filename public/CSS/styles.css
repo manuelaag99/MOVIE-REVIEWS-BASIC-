@@ -55,8 +55,8 @@ h1 {
 }
 
 .reviews-top {
-    padding-bottom: 40px;
-    box-sizing: content-box;
+    padding: 10px 15px 40px;
+    box-sizing: border-box;
 }
 
 .reviews-top, .cards {

@@ -12,7 +12,7 @@ app.use(express.static("public")); // using the "app" constant, call static file
 
 app.get("/", function(req, res) {
     console.log(res.statusCode);
-    res.send("Hello World");
+    res.render("home");
 })
 
 app.listen(3000, function(req, res) {
