@@ -12,6 +12,10 @@ a:hover {
     transition-duration: 0.5s;
 }
 
+p {
+    line-height: 1.5;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -30,7 +34,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     place-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     z-index: 3;
     background-color: #fff;
 }
@@ -42,7 +46,8 @@ header {
 
 h1 {
     margin: 0;
-    padding: 0;
+    padding: 0 0 30px;
+    font-size: 50px;
 }
 
 #pages {
@@ -52,10 +57,14 @@ h1 {
     margin-left: 20%;
 }
 
+.standard-content {
+    margin-top: 150px;
+    padding: 0 200px 100px;
+}
+
 #reviews {
     width: 100%;
     height: 90vh;
-    margin-top: 150px;
 }
 
 .reviews-top {
