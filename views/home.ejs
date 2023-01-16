@@ -26,11 +26,28 @@
             <h2>Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="cards">
-            <div class="review-card">
-                <h3>Movie Title</h3>
-                <p>I hated it so much it sucked donkey ass.</p>
+        <div class="cards-section">
+            <button class="slider-btn left" onclick="plusDivs(-1)">&#10094;</button>
+            <div class="cards">
+                <div class="review-card slider">
+                    <h3>Movie Title</h3>
+                    <p>I hated it so much it sucked donkey ass.</p>
+                </div>
+                <% document.querySelector(".slider").style.color = "red" %> 
+                <div class="review-card slider">
+                    <h3>Movie Title</h3>
+                    <p>I hated it so much it sucked donkey ass.</p>
+                </div>
+                <div class="review-card slider">
+                    <h3>Movie Title</h3>
+                    <p>I hated it so much it sucked donkey ass.</p>
+                </div>
+                <div class="review-card slider">
+                    <h3>Movie Title</h3>
+                    <p>I hated it so much it sucked donkey ass.</p>
+                </div>
             </div>
+            <button class="slider-btn right" onclick="plusDivs(+1)">&#10095;</button>
         </div>
     </section>
     <footer>
